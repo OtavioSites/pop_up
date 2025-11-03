@@ -141,3 +141,42 @@ form > div > label{
         background-color: #2246e6;
     }
 }
+
+#senha_cadastro{
+    
+
+    padding-right: 20px;
+    position: relative;
+}
+#verSenha{
+    width: 100%;
+    background-color: #3b34c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#verSenha > img{
+    width: 10px;
+    transform: scale(3);
+    position: absolute;
+    left: 88%;
+    cursor: pointer;
+}
+#verSenha > input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    border: solid 1.5px #480ca8;
+    padding: 0rem 1.1rem;
+    &:focus{
+        outline: none;
+
+    }
+   
+    &:focus-visible{
+        border: solid 1.5px #4361ee;
+        box-shadow: 0 0 10px rgb(164, 166, 255);
+    }
+   
+}
